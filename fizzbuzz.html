@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Fizz Buzz</title>
+</head>
+<body>
+
+  <script>
+  ( function fizzBuzz( start, end ) {
+  	console.log( `${ !( start % 15 ) && 'FizzBuzz' || !( start % 5 ) && 'Buzz' || !( start % 3 ) && 'Fiz' || start  }` );
+
+  	( end - start ) && fizzBuzz( ++start, end );
+  }( 0, 100 ) );
+  </script>
+</body>
+</html>
