@@ -2,6 +2,7 @@
 Fizz Buzz without conditional statement
 
 Zaliczenie przedmiotu - Wprowadzenie do Technologi Webowych
+Kontakt: poczta@grzegorzkulaga.pl
 
 ```javascript
 <!DOCTYPE html>
